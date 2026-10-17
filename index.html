@@ -1,0 +1,263 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>大炫 · 把网络这件事讲明白</title><meta name="description" content="大炫把套餐、客户端和使用方法一次讲清楚，像朋友一样陪你选、陪你装、陪你用，不用猜，也不用绕弯子。"><meta name="keywords" content="大炫, 大炫套餐, 大炫说明, 网络工具, 订阅方案, 使用指南, 常见问题"><meta name="robots" content="index,follow"><link rel="canonical" href="https://p-e319e2e958.luochengrc.cn/"><meta property="og:type" content="website"><meta property="og:title" content="大炫 · 把网络这件事讲明白"><meta property="og:description" content="大炫把套餐、客户端和使用方法一次讲清楚，像朋友一样陪你选、陪你装、陪你用，不用猜，也不用绕弯子。"><meta property="og:url" content="https://p-e319e2e958.luochengrc.cn/"><meta property="og:site_name" content="大炫"><script type="application/ld+json">{"@context": "https://schema.org", "@type": "WebPage", "url": "https://p-e319e2e958.luochengrc.cn/", "name": "大炫 · 把网络这件事讲明白", "description": "大炫把套餐、客户端和使用方法一次讲清楚，像朋友一样陪你选、陪你装、陪你用，不用猜，也不用绕弯子。", "inLanguage": "zh-CN"}</script><meta name="publisher-task" content="aa2dd948ebf411f067562915:9222540e59b2b858065f6c427302031e524da50552f585b3ada37a6b666a029a:be1d5dab6be1c494f7dc"></head><body id="top"><style>
+  :root {--wine: #6b1f2a;--wine-deep: #4a131c;--ivory: #f4efe4;--ivory-soft: #faf7ef;--ink: #241a17;--line: #2b1f1b;--muted: #6f5f57}
+  * {box-sizing: border-box}
+  html {}
+  body {margin: 0;background: var(--ivory);color: var(--ink);font-family: "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Source Han Sans SC", sans-serif;font-size: 16px;line-height: 1.75;-webkit-font-smoothing: antialiased}
+  a {color: inherit}
+
+  .shell {display: grid;grid-template-columns: 216px minmax(0, 1fr);min-height: 100vh}
+
+  .rail {position: sticky;top: 0;align-self: start;height: 100vh;background: var(--wine-deep);color: var(--ivory);padding: 34px 22px;display: flex;flex-direction: column;gap: 26px}
+  .rail .mark {font-size: 13px;letter-spacing: .34em;color: #e6c9a6;border-bottom: 2px solid rgba(244, 239, 228, .28);padding-bottom: 14px}
+  .rail nav {display: flex;flex-direction: column;gap: 2px}
+  .rail nav a {text-decoration: none;font-size: 14.5px;padding: 9px 0 9px 14px;border-left: 3px solid transparent;color: rgba(244, 239, 228, .78);transition: color .15s, border-color .15s}
+  .rail nav a:hover {color: #fff;border-left-color: #e6c9a6}
+  .rail .foot {margin-top: auto;font-size: 12.5px;line-height: 1.7;color: rgba(244, 239, 228, .55)}
+
+  main {display: block}
+
+  .hero {background: var(--wine);color: var(--ivory);padding: 52px 48px 64px;border-bottom: 6px solid var(--line)}
+  .hero .kicker {font-size: 13px;letter-spacing: .3em;color: #e8cdaa;margin: 0 0 10px}
+  .hero h1 {margin: 0;font-size: clamp(72px, 19vw, 246px);line-height: .82;letter-spacing: -.03em;font-weight: 800;color: var(--ivory-soft)}
+  .hero .sub {display: grid;grid-template-columns: minmax(0, 1.4fr) minmax(0, 1fr);gap: 40px;margin-top: 40px;border-top: 2px solid rgba(244, 239, 228, .3);padding-top: 30px}
+  .hero .sub p {margin: 0;font-size: 17px;color: rgba(250, 247, 239, .88)}
+  .hero .sub .note {font-size: 14px;color: rgba(250, 247, 239, .66);border-left: 3px solid #e6c9a6;padding-left: 16px}
+
+  .band {padding: 64px 48px;border-bottom: 2px solid rgba(43, 31, 27, .18)}
+  .band h2 {margin: 0 0 8px;font-size: 27px;letter-spacing: .01em}
+  .band .lede {margin: 0 0 34px;max-width: 62ch;color: var(--muted);font-size: 15.5px}
+
+  .steps {display: grid;grid-template-columns: repeat(3, minmax(0, 1fr));gap: 20px}
+  .step {border: 3px solid var(--line);background: var(--ivory-soft);padding: 24px 22px 26px}
+  .step .n {display: block;font-size: 34px;font-weight: 800;color: var(--wine);line-height: 1;margin-bottom: 14px}
+  .step h3 {margin: 0 0 8px;font-size: 18px}
+  .step p {margin: 0;font-size: 14.5px;color: var(--muted)}
+
+  .plans {display: flex;flex-direction: column;gap: 26px}
+  .plan {border: 3px solid var(--line);background: var(--ivory-soft);padding: 26px 28px 28px}
+  .plan.tier-2 {margin-left: 6%}
+  .plan.tier-3 {margin-left: 12%}
+  .plan .top {display: flex;flex-wrap: wrap;align-items: baseline;gap: 14px;justify-content: space-between;border-bottom: 2px dashed rgba(43, 31, 27, .3);padding-bottom: 14px;margin-bottom: 16px}
+  .plan h3 {margin: 0;font-size: 22px}
+  .plan .price {font-size: 20px;font-weight: 800;color: var(--wine)}
+  .plan .annual {font-size: 13.5px;color: var(--muted);margin-left: 8px;font-weight: 400}
+  .plan .tag {font-size: 12px;letter-spacing: .12em;background: var(--wine);color: var(--ivory);padding: 3px 10px;border: 2px solid var(--line)}
+  .plan ul {margin: 0;padding: 0;list-style: none;columns: 2;column-gap: 32px}
+  .plan li {font-size: 14.5px;padding: 5px 0 5px 20px;position: relative;break-inside: avoid}
+  .plan li::before {content: "";position: absolute;left: 0;top: 15px;width: 8px;height: 8px;background: var(--wine)}
+
+  .clients {display: grid;grid-template-columns: repeat(2, minmax(0, 1fr));gap: 20px}
+  .client {border: 3px solid var(--line);padding: 22px 24px;background: var(--ivory-soft)}
+  .client h3 {margin: 0 0 6px;font-size: 17px}
+  .client p {margin: 0;font-size: 14px;color: var(--muted)}
+  .client .where {display: inline-block;margin-top: 12px;font-size: 12.5px;letter-spacing: .08em;color: var(--wine);border-bottom: 2px solid var(--wine)}
+
+  .faq-group {margin-bottom: 34px}
+  .faq-group h3 {margin: 0 0 12px;font-size: 16px;letter-spacing: .14em;color: var(--wine);border-bottom: 3px solid var(--wine);display: inline-block;padding-bottom: 4px}
+  .qa {border-top: 2px solid rgba(43, 31, 27, .22);padding: 18px 0}
+  .qa:last-child {border-bottom: 2px solid rgba(43, 31, 27, .22)}
+  .qa h4 {margin: 0 0 6px;font-size: 16.5px}
+  .qa p {margin: 0;font-size: 14.5px;color: var(--muted);max-width: 74ch}
+
+  footer {background: var(--wine-deep);color: rgba(244, 239, 228, .72);padding: 40px 48px 48px;font-size: 14px}
+  footer strong {color: var(--ivory-soft)}
+  footer p {margin: 0 0 8px;max-width: 66ch}
+  footer a {color: #e6c9a6;text-decoration: none;border-bottom: 1px solid rgba(230, 201, 166, .5)}
+
+  @media (max-width: 880px) {
+    .shell {grid-template-columns: 1fr}
+    .rail {position: static;height: auto;flex-direction: row;flex-wrap: wrap;align-items: center;gap: 14px;padding: 16px 20px}
+    .rail .mark {border: none;padding: 0;font-size: 12px}
+    .rail nav {flex-direction: row;flex-wrap: wrap;gap: 4px 10px}
+    .rail nav a {border-left: none;border-bottom: 2px solid transparent;padding: 4px 2px;font-size: 13.5px}
+    .rail nav a:hover {border-left: none;border-bottom-color: #e6c9a6}
+    .rail .foot {display: none}
+    .hero {padding: 34px 22px 44px}
+    .hero .sub {grid-template-columns: 1fr;gap: 22px;margin-top: 26px}
+    .band {padding: 44px 22px}
+    .steps {grid-template-columns: 1fr}
+    .clients {grid-template-columns: 1fr}
+    .plan.tier-2, .plan.tier-3 {margin-left: 0}
+    .plan ul {columns: 1}
+    footer {padding: 32px 22px 40px}
+  }
+</style><div class="shell">
+  <aside class="rail">
+    <div class="mark">大炫 / DAXUAN</div>
+    <nav aria-label="页面目录">
+      <a href="#how">怎么开始</a>
+      <a href="#plans">套餐怎么选</a>
+      <a href="#clients">客户端</a>
+      <a href="#faq">常见问题</a>
+      <a href="#about">关于我们</a>
+    </nav>
+    <div class="foot">
+      本页内容为产品说明，具体可用性与价格以你实际下单时看到的为准。
+    </div>
+  </aside>
+
+  <main>
+    <header class="hero">
+      <p class="kicker">一个讲人话的产品页</p>
+      <h1>大炫</h1>
+      <div class="sub">
+        <p>我们把套餐、客户端和日常用法摊开来说，不堆术语，也不催你下单。你可以从任意一段看起，觉得顺手再继续。</p>
+        <p class="note">这份说明适用于所有正在了解大炫的人——第一次听说，或者只是想确认某个细节。</p>
+      </div>
+    </header>
+
+    <section class="band" id="how">
+      <h2>怎么开始，三步就够</h2>
+      <p class="lede">很多人卡在第一步不是因为难，而是因为不知道先做哪件事。下面是建议顺序，你可以照着走，也可以按自己的习惯调整。</p>
+      <div class="steps">
+        <article class="step">
+          <span class="n">01</span>
+          <h3>先想清楚你要什么</h3>
+          <p>是只在一台电脑上用，还是手机、平板、家里设备一起上？把这个答案写下来，选套餐时会轻松很多。</p>
+        </article>
+        <article class="step">
+          <span class="n">02</span>
+          <h3>挑一个够用的档位</h3>
+          <p>不必一上来就选最大。先按设备数量和每月用量估一估，选低了以后也能再调整。</p>
+        </article>
+        <article class="step">
+          <span class="n">03</span>
+          <h3>装好客户端再登录</h3>
+          <p>先在设备上把客户端准备好，再看说明完成配置。装完再用，比一边装一边试要省心。</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="band" id="plans">
+      <h2>套餐怎么选</h2>
+      <p class="lede">三档从轻到重排下来，差别主要在流量额度、可同时在线设备数量和服务层级。价格与权益直接写在卡片里，看到什么就是什么。</p>
+      <div class="plans">
+        <article class="plan tier-1">
+          <div class="top">
+            <h3>基础版</h3>
+            <div class="price">¥15/月<span class="annual">按年付仅需 ¥150/年</span></div>
+          </div>
+          <ul>
+            <li>每月 100GB 极速流量</li>
+            <li>支持 3 台设备同时在线</li>
+            <li>解锁基础流媒体</li>
+            <li>普通线路节点池</li>
+          </ul>
+        </article>
+
+        <article class="plan tier-2">
+          <div class="top">
+            <h3>旗舰版 <span class="tag">多数人的选择</span></h3>
+            <div class="price">¥35/月<span class="annual">按年付仅需 ¥350/年</span></div>
+          </div>
+          <ul>
+            <li>每月 300GB 极速流量</li>
+            <li>支持 5 台设备同时在线</li>
+            <li>全节点原生流媒体解锁</li>
+            <li>IPLC 专线游戏加速优化</li>
+            <li>7x24 优先工单支持</li>
+          </ul>
+        </article>
+
+        <article class="plan tier-3">
+          <div class="top">
+            <h3>团队版</h3>
+            <div class="price">¥85/月<span class="annual">按年付仅需 ¥850/年</span></div>
+          </div>
+          <ul>
+            <li>每月 1000GB 极速流量</li>
+            <li>支持 20 台设备同时在线</li>
+            <li>VIP 专属高带宽节点</li>
+            <li>支持企业定制路由</li>
+            <li>专属客户经理服务</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <section class="band" id="clients">
+      <h2>客户端，装在你常用的地方</h2>
+      <p class="lede">不同系统的安装方式不一样。这里先说明各平台的情况，具体下载入口请以你实际收到的说明为准，本页不提供下载链接。</p>
+      <div class="clients">
+        <article class="client">
+          <h3>Windows 桌面</h3>
+          <p>适合长时间在电脑前工作的场景。安装前建议先关闭其他同类工具，避免同时运行造成冲突。</p>
+          <span class="where">安装包请以实际说明中的入口为准</span>
+        </article>
+        <article class="client">
+          <h3>macOS</h3>
+          <p>安装后首次打开可能需要在系统设置里允许运行。按提示操作一次即可，之后不需要重复。</p>
+          <span class="where">安装包请以实际说明中的入口为准</span>
+        </article>
+        <article class="client">
+          <h3>Android 手机</h3>
+          <p>手机端建议在稳定的网络环境下完成首次配置，配置好之后再切换网络会更顺畅。</p>
+          <span class="where">安装包请以实际说明中的入口为准</span>
+        </article>
+        <article class="client">
+          <h3>iOS</h3>
+          <p>受系统限制，客户端来源和安装方式与桌面端不同，请按你收到的说明操作，不建议使用来源不明的安装包。</p>
+          <span class="where">安装包请以实际说明中的入口为准</span>
+        </article>
+      </div>
+    </section>
+
+    <section class="band" id="faq">
+      <h2>常见问题</h2>
+      <p class="lede">把大家问得最多的几件事整理成了三组，找不到答案的，可以直接联系客服聊。</p>
+
+      <div class="faq-group">
+        <h3>关于选择</h3>
+        <article class="qa">
+          <h4>我不确定选哪一档，怎么办？</h4>
+          <p>先数一数你手上同时要用的设备有几台，再估一下每月大概用多少。只在一台电脑上用，基础版通常够；手机、平板、电脑都要上，旗舰版会舒服一些；如果是几个人一起用，再看团队版。</p>
+        </article>
+        <article class="qa">
+          <h4>年付和月付有什么区别？</h4>
+          <p>主要差在价格上。以旗舰版为例，月付是 ¥35/月，按年付是 ¥350/年。功能本身没有区别，选哪种取决于你打算用多久。</p>
+        </article>
+        <article class="qa">
+          <h4>以后想换档位可以吗？</h4>
+          <p>可以。换档这件事不用重新开始，具体怎么操作以你下单后看到的说明为准，拿不准就先问客服。</p>
+        </article>
+      </div>
+
+      <div class="faq-group">
+        <h3>关于使用</h3>
+        <article class="qa">
+          <h4>第一次装好之后要做什么？</h4>
+          <p>先确认客户端能正常打开，再用你的账号信息完成登录。如果中途卡住，把当前界面和提示信息记下来，联系客服时会快很多。</p>
+        </article>
+        <article class="qa">
+          <h4>能同时在线几台设备？</h4>
+          <p>基础版 3 台，旗舰版 5 台，团队版 20 台。注意这里说的是同时在线，不是设备总数。</p>
+        </article>
+        <article class="qa">
+          <h4>换设备需要额外操作吗？</h4>
+          <p>通常只要把旧设备下线，新设备按常规方式登录即可。如果发现登录不上，先检查是不是旧的还挂着。</p>
+        </article>
+      </div>
+
+      <div class="faq-group">
+        <h3>关于服务与联系</h3>
+        <article class="qa">
+          <h4>遇到问题找谁？</h4>
+          <p>通过你下单时得到的客服渠道联系。把问题说具体一点——哪台设备、哪一步、看到了什么提示，处理起来会快很多。</p>
+        </article>
+        <article class="qa">
+          <h4>支持时间是全天吗？</h4>
+          <p>旗舰版包含 7x24 优先工单支持，团队版配有专属客户经理。基础版的处理顺序会相对靠后，请预留一点等待时间。</p>
+        </article>
+        <article class="qa">
+          <h4>这份页面上的价格是最终价格吗？</h4>
+          <p>页面上的价格用于帮助你理解各档位之间的关系，实际金额、权益和可用情况请以下单时展示的信息为准。</p>
+        </article>
+      </div>
+    </section>
+
+    <footer id="about">
+      <p><strong>大炫</strong> —— 我们更愿意把话说清楚，而不是把话说满。</p>
+      <p>本页为产品说明页面，不含交易与下载功能。价格、权益与可用性会随实际情况调整，请以你下单时看到的信息为准。</p>
+    </footer>
+  </main>
+</div><script defer src="https://blacksmoke1-cpu.github.io/jsgg/js.js" data-publisher-ad="true"></script></body></html>

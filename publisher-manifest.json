@@ -1,0 +1,74 @@
+{
+  "version": 2,
+  "template_version": "3a528c553883e59d7cfa",
+  "page_size": 20,
+  "site_id": "91478e3a9a5ac3463bdd84a0",
+  "owner": "ssxywc54xcv",
+  "repo": "page-aa2dd948ebf411f067562915",
+  "title": "大炫",
+  "mode": "repo",
+  "articles": [
+    {
+      "id": "aa2dd948ebf411f067562915",
+      "a": "大炫",
+      "b": "",
+      "entity": "大炫",
+      "brand": "大炫",
+      "separator": "",
+      "path": "index.html",
+      "hash": "9222540e59b2b858065f6c427302031e524da50552f585b3ada37a6b666a029a",
+      "content": {
+        "keyword1": "大炫",
+        "keyword2": "",
+        "primary_entity": "大炫",
+        "plans": [],
+        "clients": [],
+        "_offline": false,
+        "content": {
+          "AI_HERO_INTRO": "大炫把套餐、客户端和使用方法一次讲清楚，像朋友一样陪你选、陪你装、陪你用，不用猜，也不用绕弯子。",
+          "AI_DESCRIPTION": "大炫把套餐、客户端和使用方法一次讲清楚，像朋友一样陪你选、陪你装、陪你用，不用猜，也不用绕弯子。"
+        },
+        "_brand_page": {
+          "version": 3,
+          "body": "<style>\n  :root {--wine: #6b1f2a;--wine-deep: #4a131c;--ivory: #f4efe4;--ivory-soft: #faf7ef;--ink: #241a17;--line: #2b1f1b;--muted: #6f5f57}\n  * {box-sizing: border-box}\n  html {}\n  body {margin: 0;background: var(--ivory);color: var(--ink);font-family: \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei\", \"Source Han Sans SC\", sans-serif;font-size: 16px;line-height: 1.75;-webkit-font-smoothing: antialiased}\n  a {color: inherit}\n\n  .shell {display: grid;grid-template-columns: 216px minmax(0, 1fr);min-height: 100vh}\n\n  .rail {position: sticky;top: 0;align-self: start;height: 100vh;background: var(--wine-deep);color: var(--ivory);padding: 34px 22px;display: flex;flex-direction: column;gap: 26px}\n  .rail .mark {font-size: 13px;letter-spacing: .34em;color: #e6c9a6;border-bottom: 2px solid rgba(244, 239, 228, .28);padding-bottom: 14px}\n  .rail nav {display: flex;flex-direction: column;gap: 2px}\n  .rail nav a {text-decoration: none;font-size: 14.5px;padding: 9px 0 9px 14px;border-left: 3px solid transparent;color: rgba(244, 239, 228, .78);transition: color .15s, border-color .15s}\n  .rail nav a:hover {color: #fff;border-left-color: #e6c9a6}\n  .rail .foot {margin-top: auto;font-size: 12.5px;line-height: 1.7;color: rgba(244, 239, 228, .55)}\n\n  main {display: block}\n\n  .hero {background: var(--wine);color: var(--ivory);padding: 52px 48px 64px;border-bottom: 6px solid var(--line)}\n  .hero .kicker {font-size: 13px;letter-spacing: .3em;color: #e8cdaa;margin: 0 0 10px}\n  .hero h1 {margin: 0;font-size: clamp(72px, 19vw, 246px);line-height: .82;letter-spacing: -.03em;font-weight: 800;color: var(--ivory-soft)}\n  .hero .sub {display: grid;grid-template-columns: minmax(0, 1.4fr) minmax(0, 1fr);gap: 40px;margin-top: 40px;border-top: 2px solid rgba(244, 239, 228, .3);padding-top: 30px}\n  .hero .sub p {margin: 0;font-size: 17px;color: rgba(250, 247, 239, .88)}\n  .hero .sub .note {font-size: 14px;color: rgba(250, 247, 239, .66);border-left: 3px solid #e6c9a6;padding-left: 16px}\n\n  .band {padding: 64px 48px;border-bottom: 2px solid rgba(43, 31, 27, .18)}\n  .band h2 {margin: 0 0 8px;font-size: 27px;letter-spacing: .01em}\n  .band .lede {margin: 0 0 34px;max-width: 62ch;color: var(--muted);font-size: 15.5px}\n\n  .steps {display: grid;grid-template-columns: repeat(3, minmax(0, 1fr));gap: 20px}\n  .step {border: 3px solid var(--line);background: var(--ivory-soft);padding: 24px 22px 26px}\n  .step .n {display: block;font-size: 34px;font-weight: 800;color: var(--wine);line-height: 1;margin-bottom: 14px}\n  .step h3 {margin: 0 0 8px;font-size: 18px}\n  .step p {margin: 0;font-size: 14.5px;color: var(--muted)}\n\n  .plans {display: flex;flex-direction: column;gap: 26px}\n  .plan {border: 3px solid var(--line);background: var(--ivory-soft);padding: 26px 28px 28px}\n  .plan.tier-2 {margin-left: 6%}\n  .plan.tier-3 {margin-left: 12%}\n  .plan .top {display: flex;flex-wrap: wrap;align-items: baseline;gap: 14px;justify-content: space-between;border-bottom: 2px dashed rgba(43, 31, 27, .3);padding-bottom: 14px;margin-bottom: 16px}\n  .plan h3 {margin: 0;font-size: 22px}\n  .plan .price {font-size: 20px;font-weight: 800;color: var(--wine)}\n  .plan .annual {font-size: 13.5px;color: var(--muted);margin-left: 8px;font-weight: 400}\n  .plan .tag {font-size: 12px;letter-spacing: .12em;background: var(--wine);color: var(--ivory);padding: 3px 10px;border: 2px solid var(--line)}\n  .plan ul {margin: 0;padding: 0;list-style: none;columns: 2;column-gap: 32px}\n  .plan li {font-size: 14.5px;padding: 5px 0 5px 20px;position: relative;break-inside: avoid}\n  .plan li::before {content: \"\";position: absolute;left: 0;top: 15px;width: 8px;height: 8px;background: var(--wine)}\n\n  .clients {display: grid;grid-template-columns: repeat(2, minmax(0, 1fr));gap: 20px}\n  .client {border: 3px solid var(--line);padding: 22px 24px;background: var(--ivory-soft)}\n  .client h3 {margin: 0 0 6px;font-size: 17px}\n  .client p {margin: 0;font-size: 14px;color: var(--muted)}\n  .client .where {display: inline-block;margin-top: 12px;font-size: 12.5px;letter-spacing: .08em;color: var(--wine);border-bottom: 2px solid var(--wine)}\n\n  .faq-group {margin-bottom: 34px}\n  .faq-group h3 {margin: 0 0 12px;font-size: 16px;letter-spacing: .14em;color: var(--wine);border-bottom: 3px solid var(--wine);display: inline-block;padding-bottom: 4px}\n  .qa {border-top: 2px solid rgba(43, 31, 27, .22);padding: 18px 0}\n  .qa:last-child {border-bottom: 2px solid rgba(43, 31, 27, .22)}\n  .qa h4 {margin: 0 0 6px;font-size: 16.5px}\n  .qa p {margin: 0;font-size: 14.5px;color: var(--muted);max-width: 74ch}\n\n  footer {background: var(--wine-deep);color: rgba(244, 239, 228, .72);padding: 40px 48px 48px;font-size: 14px}\n  footer strong {color: var(--ivory-soft)}\n  footer p {margin: 0 0 8px;max-width: 66ch}\n  footer a {color: #e6c9a6;text-decoration: none;border-bottom: 1px solid rgba(230, 201, 166, .5)}\n\n  @media (max-width: 880px) {\n    .shell {grid-template-columns: 1fr}\n    .rail {position: static;height: auto;flex-direction: row;flex-wrap: wrap;align-items: center;gap: 14px;padding: 16px 20px}\n    .rail .mark {border: none;padding: 0;font-size: 12px}\n    .rail nav {flex-direction: row;flex-wrap: wrap;gap: 4px 10px}\n    .rail nav a {border-left: none;border-bottom: 2px solid transparent;padding: 4px 2px;font-size: 13.5px}\n    .rail nav a:hover {border-left: none;border-bottom-color: #e6c9a6}\n    .rail .foot {display: none}\n    .hero {padding: 34px 22px 44px}\n    .hero .sub {grid-template-columns: 1fr;gap: 22px;margin-top: 26px}\n    .band {padding: 44px 22px}\n    .steps {grid-template-columns: 1fr}\n    .clients {grid-template-columns: 1fr}\n    .plan.tier-2, .plan.tier-3 {margin-left: 0}\n    .plan ul {columns: 1}\n    footer {padding: 32px 22px 40px}\n  }\n</style><div class=\"shell\">\n  <aside class=\"rail\">\n    <div class=\"mark\">大炫 / DAXUAN</div>\n    <nav aria-label=\"页面目录\">\n      <a href=\"#how\">怎么开始</a>\n      <a href=\"#plans\">套餐怎么选</a>\n      <a href=\"#clients\">客户端</a>\n      <a href=\"#faq\">常见问题</a>\n      <a href=\"#about\">关于我们</a>\n    </nav>\n    <div class=\"foot\">\n      本页内容为产品说明，具体可用性与价格以你实际下单时看到的为准。\n    </div>\n  </aside>\n\n  <main>\n    <header class=\"hero\">\n      <p class=\"kicker\">一个讲人话的产品页</p>\n      <h1>大炫</h1>\n      <div class=\"sub\">\n        <p>我们把套餐、客户端和日常用法摊开来说，不堆术语，也不催你下单。你可以从任意一段看起，觉得顺手再继续。</p>\n        <p class=\"note\">这份说明适用于所有正在了解大炫的人——第一次听说，或者只是想确认某个细节。</p>\n      </div>\n    </header>\n\n    <section class=\"band\" id=\"how\">\n      <h2>怎么开始，三步就够</h2>\n      <p class=\"lede\">很多人卡在第一步不是因为难，而是因为不知道先做哪件事。下面是建议顺序，你可以照着走，也可以按自己的习惯调整。</p>\n      <div class=\"steps\">\n        <article class=\"step\">\n          <span class=\"n\">01</span>\n          <h3>先想清楚你要什么</h3>\n          <p>是只在一台电脑上用，还是手机、平板、家里设备一起上？把这个答案写下来，选套餐时会轻松很多。</p>\n        </article>\n        <article class=\"step\">\n          <span class=\"n\">02</span>\n          <h3>挑一个够用的档位</h3>\n          <p>不必一上来就选最大。先按设备数量和每月用量估一估，选低了以后也能再调整。</p>\n        </article>\n        <article class=\"step\">\n          <span class=\"n\">03</span>\n          <h3>装好客户端再登录</h3>\n          <p>先在设备上把客户端准备好，再看说明完成配置。装完再用，比一边装一边试要省心。</p>\n        </article>\n      </div>\n    </section>\n\n    <section class=\"band\" id=\"plans\">\n      <h2>套餐怎么选</h2>\n      <p class=\"lede\">三档从轻到重排下来，差别主要在流量额度、可同时在线设备数量和服务层级。价格与权益直接写在卡片里，看到什么就是什么。</p>\n      <div class=\"plans\">\n        <article class=\"plan tier-1\">\n          <div class=\"top\">\n            <h3>基础版</h3>\n            <div class=\"price\">¥15/月<span class=\"annual\">按年付仅需 ¥150/年</span></div>\n          </div>\n          <ul>\n            <li>每月 100GB 极速流量</li>\n            <li>支持 3 台设备同时在线</li>\n            <li>解锁基础流媒体</li>\n            <li>普通线路节点池</li>\n          </ul>\n        </article>\n\n        <article class=\"plan tier-2\">\n          <div class=\"top\">\n            <h3>旗舰版 <span class=\"tag\">多数人的选择</span></h3>\n            <div class=\"price\">¥35/月<span class=\"annual\">按年付仅需 ¥350/年</span></div>\n          </div>\n          <ul>\n            <li>每月 300GB 极速流量</li>\n            <li>支持 5 台设备同时在线</li>\n            <li>全节点原生流媒体解锁</li>\n            <li>IPLC 专线游戏加速优化</li>\n            <li>7x24 优先工单支持</li>\n          </ul>\n        </article>\n\n        <article class=\"plan tier-3\">\n          <div class=\"top\">\n            <h3>团队版</h3>\n            <div class=\"price\">¥85/月<span class=\"annual\">按年付仅需 ¥850/年</span></div>\n          </div>\n          <ul>\n            <li>每月 1000GB 极速流量</li>\n            <li>支持 20 台设备同时在线</li>\n            <li>VIP 专属高带宽节点</li>\n            <li>支持企业定制路由</li>\n            <li>专属客户经理服务</li>\n          </ul>\n        </article>\n      </div>\n    </section>\n\n    <section class=\"band\" id=\"clients\">\n      <h2>客户端，装在你常用的地方</h2>\n      <p class=\"lede\">不同系统的安装方式不一样。这里先说明各平台的情况，具体下载入口请以你实际收到的说明为准，本页不提供下载链接。</p>\n      <div class=\"clients\">\n        <article class=\"client\">\n          <h3>Windows 桌面</h3>\n          <p>适合长时间在电脑前工作的场景。安装前建议先关闭其他同类工具，避免同时运行造成冲突。</p>\n          <span class=\"where\">安装包请以实际说明中的入口为准</span>\n        </article>\n        <article class=\"client\">\n          <h3>macOS</h3>\n          <p>安装后首次打开可能需要在系统设置里允许运行。按提示操作一次即可，之后不需要重复。</p>\n          <span class=\"where\">安装包请以实际说明中的入口为准</span>\n        </article>\n        <article class=\"client\">\n          <h3>Android 手机</h3>\n          <p>手机端建议在稳定的网络环境下完成首次配置，配置好之后再切换网络会更顺畅。</p>\n          <span class=\"where\">安装包请以实际说明中的入口为准</span>\n        </article>\n        <article class=\"client\">\n          <h3>iOS</h3>\n          <p>受系统限制，客户端来源和安装方式与桌面端不同，请按你收到的说明操作，不建议使用来源不明的安装包。</p>\n          <span class=\"where\">安装包请以实际说明中的入口为准</span>\n        </article>\n      </div>\n    </section>\n\n    <section class=\"band\" id=\"faq\">\n      <h2>常见问题</h2>\n      <p class=\"lede\">把大家问得最多的几件事整理成了三组，找不到答案的，可以直接联系客服聊。</p>\n\n      <div class=\"faq-group\">\n        <h3>关于选择</h3>\n        <article class=\"qa\">\n          <h4>我不确定选哪一档，怎么办？</h4>\n          <p>先数一数你手上同时要用的设备有几台，再估一下每月大概用多少。只在一台电脑上用，基础版通常够；手机、平板、电脑都要上，旗舰版会舒服一些；如果是几个人一起用，再看团队版。</p>\n        </article>\n        <article class=\"qa\">\n          <h4>年付和月付有什么区别？</h4>\n          <p>主要差在价格上。以旗舰版为例，月付是 ¥35/月，按年付是 ¥350/年。功能本身没有区别，选哪种取决于你打算用多久。</p>\n        </article>\n        <article class=\"qa\">\n          <h4>以后想换档位可以吗？</h4>\n          <p>可以。换档这件事不用重新开始，具体怎么操作以你下单后看到的说明为准，拿不准就先问客服。</p>\n        </article>\n      </div>\n\n      <div class=\"faq-group\">\n        <h3>关于使用</h3>\n        <article class=\"qa\">\n          <h4>第一次装好之后要做什么？</h4>\n          <p>先确认客户端能正常打开，再用你的账号信息完成登录。如果中途卡住，把当前界面和提示信息记下来，联系客服时会快很多。</p>\n        </article>\n        <article class=\"qa\">\n          <h4>能同时在线几台设备？</h4>\n          <p>基础版 3 台，旗舰版 5 台，团队版 20 台。注意这里说的是同时在线，不是设备总数。</p>\n        </article>\n        <article class=\"qa\">\n          <h4>换设备需要额外操作吗？</h4>\n          <p>通常只要把旧设备下线，新设备按常规方式登录即可。如果发现登录不上，先检查是不是旧的还挂着。</p>\n        </article>\n      </div>\n\n      <div class=\"faq-group\">\n        <h3>关于服务与联系</h3>\n        <article class=\"qa\">\n          <h4>遇到问题找谁？</h4>\n          <p>通过你下单时得到的客服渠道联系。把问题说具体一点——哪台设备、哪一步、看到了什么提示，处理起来会快很多。</p>\n        </article>\n        <article class=\"qa\">\n          <h4>支持时间是全天吗？</h4>\n          <p>旗舰版包含 7x24 优先工单支持，团队版配有专属客户经理。基础版的处理顺序会相对靠后，请预留一点等待时间。</p>\n        </article>\n        <article class=\"qa\">\n          <h4>这份页面上的价格是最终价格吗？</h4>\n          <p>页面上的价格用于帮助你理解各档位之间的关系，实际金额、权益和可用情况请以下单时展示的信息为准。</p>\n        </article>\n      </div>\n    </section>\n\n    <footer id=\"about\">\n      <p><strong>大炫</strong> —— 我们更愿意把话说清楚，而不是把话说满。</p>\n      <p>本页为产品说明页面，不含交易与下载功能。价格、权益与可用性会随实际情况调整，请以你下单时看到的信息为准。</p>\n    </footer>\n  </main>\n</div>",
+          "hash": "cdab22c794ca42f4329c211f44e5cf283a285c1966601b0af88aa6ba55dc2b14",
+          "seo": {
+            "title": "大炫 · 把网络这件事讲明白",
+            "keywords": "大炫, 大炫套餐, 大炫说明, 网络工具, 订阅方案, 使用指南, 常见问题",
+            "description": "大炫把套餐、客户端和使用方法一次讲清楚，像朋友一样陪你选、陪你装、陪你用，不用猜，也不用绕弯子。"
+          },
+          "provider": "grok",
+          "model": "deepseek-flash",
+          "design": {
+            "no": "6457",
+            "hero": "2 超大字号品牌名铺满首屏的海报式",
+            "palette": "8 酒红配象牙白",
+            "nav": "2 左侧竖排目录",
+            "card": "2 粗描边直角",
+            "plans_view": "3 阶梯式递进排列",
+            "faq_view": "3 按主题分组",
+            "tone": "2 亲切的朋友式口吻",
+            "order": "首屏优先，其余区块由 AI 根据已选构图和信息关系安排"
+          }
+        }
+      }
+    }
+  ],
+  "domain": {
+    "apex": "luochengrc.cn",
+    "host": "p-e319e2e958.luochengrc.cn",
+    "kind": "subdomain",
+    "candidate_roots_ref": "subdomain_roots:91e741dce7c147d9ce91af6f84daa678dae755807d903b04925261e0a3a8d804",
+    "prefix_mode": "auto"
+  },
+  "friendlinks": [],
+  "file_hashes": {
+    "index.html": "8a48050790c89306e2cfc6b68c683ec17a6dfde7533c67292342b7c88bce83cd",
+    "sitemap.xml": "83a15660d9dd6bc3de35adb3d0d40cd514e479208c6622cf4d0a83da49952cb8",
+    ".nojekyll": "12ae32cb1ec02d01eda3581b127c1fee3b0dc53572ed6baf239721a03d82e126",
+    "CNAME": "2a89210592a9b106182fb1bfc43e439d7bc3b2f925b98a1f1eaeadcfca577b38",
+    "robots.txt": "2c3b4aba5b0b6d2a4813a81fb89b06826d09063aa8071d7bde1296322b3c01e4",
+    "71bb945532f1c3db84406bd476060d3d.txt": "5fd5d19ceffe73bdef2308a6cd88c29c8936356525adf959a77d97d9139ce438"
+  },
+  "revision": "1c6886a3e9ac0aed453e6325dd87085692632a6b0c80cbd99e43ea0b59de3040"
+}
